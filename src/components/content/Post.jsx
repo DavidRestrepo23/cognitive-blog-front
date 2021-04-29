@@ -2,6 +2,8 @@ import { graphql, Link } from "gatsby"
 import React from "react"
 import Layout from "../Layout"
 import LastsPosts from "./LastsPosts"
+import ReactMarkdown from "react-markdown"
+import SocialNetworks from "../utils/SocialNetworks"
 
 export const query = graphql`
   query($id: String!) {
@@ -46,7 +48,6 @@ export const query = graphql`
 
 const Post = ({ data }) => {
   const post = data.allStrapiPosts.nodes[0]
-
   return (
     <Layout>
       <section>
@@ -67,25 +68,7 @@ const Post = ({ data }) => {
             <div className="col-12 col-md-4 subcribe-box">
               <h2 className="mt-3">Comparte</h2>
               <div className="divider mb-2"></div>
-              <div className="social-networks">
-                <ul>
-                  <li>
-                    <Link to="/">
-                      <i className="fab fa-facebook-f"></i>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="/">
-                      <i className="fab fa-instagram"></i>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="/">
-                      <i className="fab fa-twitter"></i>
-                    </Link>
-                  </li>
-                </ul>
-              </div>
+              <SocialNetworks />
               <div>
                 <h3 className="my-4">Subscribe to our Newsletter</h3>
                 <form>
@@ -137,7 +120,18 @@ const Post = ({ data }) => {
                 </div>
               </div>
               <div className="mt-5">
-                <p>{post.content}</p>
+                <ReactMarkdown>{post.content}</ReactMarkdown>
+              </div>
+              <div>
+                <ul className="post-tags m-0 p-0">
+                  {post.tags.length > 0 &&
+                    post.tags.map(tags => (
+                      <li>
+                        {tags.name}
+                        <span className="last-span"> • </span>
+                      </li>
+                    ))}
+                </ul>
               </div>
               <div className="header-post d-flex justify-content-between align-items-center mt-5">
                 <div className="profile d-flex align-items-center">
@@ -153,30 +147,12 @@ const Post = ({ data }) => {
                 </div>
 
                 <div>
-                  <div className="social-networks">
-                    <ul>
-                      <li>
-                        <Link to="/">
-                          <i className="fab fa-facebook-f"></i>
-                        </Link>
-                      </li>
-                      <li>
-                        <Link to="/">
-                          <i className="fab fa-instagram"></i>
-                        </Link>
-                      </li>
-                      <li>
-                        <Link to="/">
-                          <i className="fab fa-twitter"></i>
-                        </Link>
-                      </li>
-                    </ul>
-                  </div>
+                  <SocialNetworks />
                 </div>
               </div>
             </div>
             <div className="col-12 col-md-4">
-              <LastsPosts />
+              <LastsPosts seePost={true} />
             </div>
           </div>
         </div>

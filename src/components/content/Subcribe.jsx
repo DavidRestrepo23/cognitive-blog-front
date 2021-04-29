@@ -1,6 +1,7 @@
 import { Link } from "gatsby"
 import React from "react"
 import imagePhone from "../../images/celular.png"
+import SocialNetworks from "../utils/SocialNetworks"
 
 const Subcribe = () => {
   return (
@@ -29,25 +30,7 @@ const Subcribe = () => {
               </div>
             </form>
             <div>
-              <div className="social-networks mt-5">
-                <ul>
-                  <li>
-                    <Link to="/">
-                      <i className="fab fa-facebook-f"></i>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="/">
-                      <i className="fab fa-instagram"></i>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="/">
-                      <i className="fab fa-twitter"></i>
-                    </Link>
-                  </li>
-                </ul>
-              </div>
+              <SocialNetworks add_class="mt-5" />
             </div>
           </div>
           <div className="col-7 bg-subcribe">
