@@ -50,14 +50,13 @@ export const query = graphql`
 
 const Category = ({ data }) => {
   const posts = data.allStrapiPosts.nodes
-  const nameCategory = window.location.pathname.replace("/category/", "")
 
   return (
     <Layout>
       <div className="container category-page mt-4">
         <div className="row">
           <div className="col-12">
-            <h1 className="text-center">{nameCategory}</h1>
+            <h1 className="text-center">Category</h1>
           </div>
         </div>
       </div>
