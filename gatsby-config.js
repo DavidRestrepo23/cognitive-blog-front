@@ -20,7 +20,7 @@ module.exports = {
     {
       resolve: `gatsby-source-strapi`,
       options: {
-        apiURL: `https://cognitive-strapi.herokuapp.com/`,
+        apiURL: `https://cognitive-strapi.herokuapp.com`,
         queryLimit: 1000,
         contentTypes: [`categories`, `posts`, "tags"],
       },
