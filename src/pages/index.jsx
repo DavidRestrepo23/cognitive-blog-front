@@ -5,8 +5,10 @@ import LastsPosts from "../components/content/LastsPosts"
 import SectionInfo from "../components/content/SectionInfo"
 import Subcribe from "../components/content/Subcribe"
 import Layout from "../components/Layout"
+import usePostHook from "../components/hooks/UsePost";
 
 const Index = () => {
+  const posts = usePostHook()
   return (
     <Layout>
       <section>
@@ -23,7 +25,7 @@ const Index = () => {
       </section>
       <div className="divider my-5"></div>
       <section>
-        <AllPosts />
+        <AllPosts posts={posts} showTitle={true} />
       </section>
       <section>
         <Subcribe />

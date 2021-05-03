@@ -4,6 +4,7 @@ import Layout from "../Layout"
 import LastsPosts from "./LastsPosts"
 import ReactMarkdown from "react-markdown"
 import SocialNetworks from "../utils/SocialNetworks"
+import urlSlug from "url-slug"
 
 export const query = graphql`
   query($id: String!) {
@@ -110,9 +111,14 @@ const Post = ({ data }) => {
                 <div>
                   <ul className="category m-0 p-0">
                     {post.categories.length > 0 &&
-                      post.categories.map(category => (
-                        <li>
-                          {category.name}
+                      post.categories.map((category, index) => (
+                        <li key={index}>
+                          <Link
+                            to={`/category/${urlSlug(category.name)}`}
+                            key={index}
+                          >
+                            {category.name}
+                          </Link>
                           <span className="last-span"> • </span>
                         </li>
                       ))}

@@ -13,9 +13,12 @@ const LastsPosts = props => {
         <h4 className="mb-4">Últimos blogs</h4>
         <div className="mb-3 boxs">
           {lastsPosts.map((post, index) => (
-            <div className={`d-flex mb-3 ${props.seePost && 'align-items-center'}`} key={index}>
+            <div
+              className={`d-flex mb-3 ${props.seePost && "align-items-center"}`}
+              key={index}
+            >
               <div>
-                <Link to="/">
+                <Link to={`/${urlSlug(post.title)}`}>
                   <img
                     className={`card-img-top ${props.seePost && "img-in-post"}`}
                     src={post.image.sharp.fluid.srcWebp}
@@ -25,16 +28,28 @@ const LastsPosts = props => {
               </div>
               <div className="ml-3 last-posts-items">
                 <div className="mt-3">
-                  <Link to="/" className="mb-3">
+                  <Link
+                    to={`/category/${urlSlug(post.categories[0].name)}`}
+                    className="mb-3"
+                  >
                     <small>
                       {post.categories.length > 0 && post.categories[0].name}
                     </small>
                   </Link>
                   <h5 className="my-0">
-                    <Link className={`${props.seePost && "h5-in-post"}`} to={`/${urlSlug(post.title)}`}>{post.title}</Link>
+                    <Link
+                      className={`${props.seePost && "h5-in-post"}`}
+                      to={`/${urlSlug(post.title)}`}
+                    >
+                      {post.title}
+                    </Link>
                   </h5>
                   <div>
-                    <small className={`${props.seePost && "d-flex justify-content-between"}`}>
+                    <small
+                      className={`${
+                        props.seePost && "d-flex justify-content-between"
+                      }`}
+                    >
                       <div>
                         By {`${post.user.firstname} ${post.user.lastname}`}
                       </div>

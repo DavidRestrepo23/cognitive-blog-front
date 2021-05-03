@@ -11,22 +11,22 @@ const LastPost = () => {
     <>
       <div className="card-cgt">
         <div>
-          <img
-            className="card-img-top"
-            src={post.image.sharp.fluid.srcWebp}
-            alt={post.name}
-          />
+          <Link to={`/${urlSlug(post.title)}`}>
+            <img
+              className="card-img-top"
+              src={post.image.sharp.fluid.srcWebp}
+              alt={post.name}
+            />
+          </Link>
         </div>
         <div className="card-content-cgt mt-2">
-          <Link to="/">
-            <Link to="/">
-              <small>
-                {post.categories.length > 0 && post.categories[0].name}
-              </small>
-            </Link>
+          <Link to={`/category/${urlSlug(post.categories[0].name)}`}>
+            <small>
+              {post.categories.length > 0 && post.categories[0].name}
+            </small>
           </Link>
           <h2 className="my-2">
-            <Link to={urlSlug(post.title)}>{post.title}</Link>
+            <Link to={`/${urlSlug(post.title)}`}>{post.title}</Link>
           </h2>
           <span>
             By {`${post.user.firstname} ${post.user.lastname}`},{" "}
