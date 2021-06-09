@@ -1,14 +1,10 @@
-import { Link, useStaticQuery, graphql } from "gatsby"
+import { Link } from "gatsby"
 import React from "react"
+import useImagesHook from "../hooks/UseImages";
 
 const Navigation = () => {
-  const { logo } = useStaticQuery(graphql`
-    {
-      logo: file(relativePath: { eq: "cognityve-logo-02.png" }) {
-        publicURL
-      }
-    }
-  `)
+
+  const logo = useImagesHook();
 
   return (
     <>

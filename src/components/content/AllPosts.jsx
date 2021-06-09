@@ -3,6 +3,9 @@ import urlSlug from "url-slug"
 import React from "react"
 
 const AllPosts = props => {
+
+  console.log(props)
+
   return (
     <>
       <div className="container justify-content-center">
