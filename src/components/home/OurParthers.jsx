@@ -2,7 +2,7 @@ import React from "react"
 
 const OurParthers = () => {
   return (
-    <section className="my-5 py-5">
+    <section className="my-md-5 py-md-5 our-parthers">
       <div className="container">
         <div className="row">
           <div className="col-12">
@@ -12,42 +12,42 @@ const OurParthers = () => {
           </div>
         </div>
         <div className="row mt-5">
-          <div className="col-12 col-sm-3 col-md-2">
+          <div className="col-12 mb-3 mb-md-0 col-sm-6 col-md-2">
             <img
               src="https://via.placeholder.com/200x150"
               width="100%"
               alt=""
             />
           </div>
-          <div className="col-12 col-sm-3 col-md-2">
+          <div className="col-12 mb-3 mb-md-0 col-sm-6 col-md-2">
             <img
               src="https://via.placeholder.com/200x150"
               width="100%"
               alt=""
             />
           </div>
-          <div className="col-12 col-sm-3 col-md-2">
+          <div className="col-12 mb-3 mb-md-0 col-sm-6 col-md-2">
             <img
               src="https://via.placeholder.com/200x150"
               width="100%"
               alt=""
             />
           </div>
-          <div className="col-12 col-sm-3 col-md-2">
+          <div className="col-12 mb-3 mb-md-0 col-sm-6 col-md-2">
             <img
               src="https://via.placeholder.com/200x150"
               width="100%"
               alt=""
             />
           </div>
-          <div className="col-12 col-sm-3 col-md-2">
+          <div className="col-12 mb-3 mb-md-0 col-sm-6 col-md-2">
             <img
               src="https://via.placeholder.com/200x150"
               width="100%"
               alt=""
             />
           </div>
-          <div className="col-12 col-sm-3 col-md-2">
+          <div className="col-12 mb-3 mb-md-0 col-sm-6 col-md-2">
             <img
               src="https://via.placeholder.com/200x150"
               width="100%"

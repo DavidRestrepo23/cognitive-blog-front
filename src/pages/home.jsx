@@ -22,6 +22,13 @@ const Home = () => {
         <Slider />
         <Talent />
         <WorkUs />
+
+        {/* <OurParthers />
+        <Tabs />
+        <Industries />
+        <Slider />
+        <Talent />
+        <WorkUs /> */}
       </Layout>
     </>
   )

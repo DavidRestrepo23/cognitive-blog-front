@@ -1,6 +1,5 @@
 import { Link } from "gatsby"
 import React from "react"
-import imagePhone from "../../images/celular.png"
 import SocialNetworks from "../utils/SocialNetworks"
 
 const Subcribe = () => {
@@ -34,7 +33,7 @@ const Subcribe = () => {
             </div>
           </div>
           <div className="col-7 bg-subcribe">
-            <img src={imagePhone} width="100%" alt="" />
+            <img src="" width="100%" alt="" />
           </div>
         </div>
       </div>

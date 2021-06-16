@@ -1,13 +1,16 @@
 import { Link } from "gatsby"
 import React from "react"
+import NavigationHome from '../header/NavigationHome'
+import tabletImg from "../../images/tablet.png"
 
 const HomeHeader = () => {
   return (
     <>
       <header>
+        <NavigationHome />
         <div className="container h-100">
-          <div className="row align-items-center h-100">
-            <div className="col-12 col-sm-6">
+          <div className="row align-items-center mt-5 pt-3">
+            <div className="col-12 col-sm-12 col-md-6">
               <h1>
                 <div>
                   <span>
@@ -22,10 +25,10 @@ const HomeHeader = () => {
                 <Link className="btn btn-default primary" to="#">Lorem Ipsum <i className="fas fa-long-arrow-alt-right"></i></Link>
               </div>
             </div>
-            <div className="col-12 col-sm-6">
+            <div className="col-12 col-sm-12 col-md-6">
               <img
-                src="http://via.placeholder.com/800x600"
-                width="100%"
+                src={tabletImg}
+                className="img-tablet-header"
                 alt=""
               />
             </div>

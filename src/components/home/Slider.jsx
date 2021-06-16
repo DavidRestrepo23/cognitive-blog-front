@@ -3,7 +3,7 @@ import React from "react"
 
 const Slider = () => {
   return (
-    <section className="my-5 py-5">
+    <section className="slider-section">
       <div className="container">
         <div className="row slider-title">
           <div className="col-12 slider-text-right">
@@ -51,6 +51,7 @@ const Slider = () => {
                     <div className="col-12 col-sm-12 col-md-6 text-center">
                       <img
                         src="https://via.placeholder.com/500x300"
+                        
                         className="carousel-item-img"
                         alt=""
                       />
@@ -63,7 +64,7 @@ const Slider = () => {
                       </h4>
                       <div className="d-flex align-items-baseline px-3">
                         <div>
-                            <i className="fas fa-quote-left"></i> 
+                          <i className="fas fa-quote-left"></i>
                         </div>
                         <div>
                           <p className="text-quote mr-4 mt-4">
@@ -75,7 +76,7 @@ const Slider = () => {
                         </div>
                       </div>
                       <div className="mt-3">
-                          <Link to="/"> LOREM IPSUM DOLOREM A MET <i className="fas fa-long-arrow-alt-right"></i></Link>
+                        <Link to="/"> LOREM IPSUM DOLOREM A MET <i className="fas fa-long-arrow-alt-right"></i></Link>
                       </div>
                     </div>
                   </div>
@@ -86,18 +87,19 @@ const Slider = () => {
                       <img
                         src="https://via.placeholder.com/500x300"
                         className="carousel-item-img"
+                        
                         alt=""
                       />
                     </div>
                     <div className="col-12 col-sm-12 col-md-6 mt-4">
                       <h4>
-                        Feugiat pretium nib ipsum consequa vida tru quisque non
+                        ASDASD pretium nib ipsum consequa vida tru quisque non
                         tellus orci ac strud ctor tellus mauris Feugiat pretium
                         nib ipsum conseq?
                       </h4>
                       <div className="d-flex align-items-baseline px-3">
                         <div>
-                            <i className="fas fa-quote-left"></i> 
+                          <i className="fas fa-quote-left"></i>
                         </div>
                         <div>
                           <p className="text-quote mr-4 mt-4">
@@ -109,7 +111,7 @@ const Slider = () => {
                         </div>
                       </div>
                       <div className="mt-3">
-                          <Link to="/"> LOREM IPSUM DOLOREM A MET <i className="fas fa-long-arrow-alt-right"></i></Link>
+                        <Link to="/"> LOREM IPSUM DOLOREM A MET <i className="fas fa-long-arrow-alt-right"></i></Link>
                       </div>
                     </div>
                   </div>

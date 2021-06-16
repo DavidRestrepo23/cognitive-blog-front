@@ -25,7 +25,7 @@ module.exports = {
         contentTypes: [`categories`, `posts`, "tags"],
       },
     },
-    /*{
+    /*{ 
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `gatsby-starter-default`,

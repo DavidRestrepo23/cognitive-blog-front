@@ -1,5 +1,6 @@
 import { Link } from "gatsby"
 import React from "react"
+import phoneImage from "../../images/phone.png";
 
 const Tabs = () => {
   return (
@@ -80,7 +81,7 @@ const Tabs = () => {
               </ul>
               <div className="tab-content px-5" id="myTabContent">
                 <div
-                  className="tab-pane px-5 fade show active"
+                  className="tab-pane p-3 px-md-5 fade show active"
                   id="home"
                   role="tabpanel"
                   aria-labelledby="home-tab"
@@ -110,8 +111,14 @@ const Tabs = () => {
                         </Link>
                       </div>
                     </div>
-                    <div className="col-12 col-md-6 text-center">
-                      <img className="px-5" src="https://via.placeholder.com/300x500" alt="" />
+                    <div className="col-12 col-md-6 text-center p-md-5">
+                      <div className="content-image-phone">
+                        <div>
+                          <img className="px-md-5 pt-5 pt-md-0" src={phoneImage}  alt="" />
+                        </div>
+                        <div className="circle"></div>
+                      </div>
+                      
                     </div>
                   </div>
                 </div>
