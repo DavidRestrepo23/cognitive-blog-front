@@ -29,22 +29,17 @@ const NavigationHome = () => {
               <ul className="navbar-nav">
                 <li className="nav-item">
                   <Link className="nav-link active" aria-current="page" to="/">
-                    Lorem Ipsum
+                    Blog
                   </Link>
                 </li>
                 <li className="nav-item">
                   <Link className="nav-link" aria-current="page" to="/">
-                    Lorem Ipsum
+                    Carreras
                   </Link>
                 </li>
                 <li className="nav-item">
                   <Link className="nav-link" aria-current="page" to="/">
-                    Lorem Ipsum
-                  </Link>
-                </li>
-                <li className="nav-item">
-                  <Link className="nav-link" aria-current="page" to="/">
-                    Lorem Ipsum
+                    Nosotros
                   </Link>
                 </li>
                 <li className="nav-item">
@@ -53,17 +48,17 @@ const NavigationHome = () => {
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link" aria-current="page" to="/">
+                  <Link className="nav-link" aria-current="page" target="_blank" to="https://www.instagram.com/cognityve/">
                     <i className="fab fa-instagram"></i>
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link" aria-current="page" to="/">
-                    <i className="fab fa-twitter"></i>
+                  <Link className="nav-link" aria-current="page" target="_blank" to="https://www.facebook.com/Cognityve-101379955017098">
+                    <i className="fab fa-facebook"></i>
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link" aria-current="page" to="/">
+                  <Link className="nav-link" aria-current="page" target="_blank" to="https://www.linkedin.com/company/cognityve/">
                     <i className="fab fa-linkedin-in"></i>
                   </Link>
                 </li>

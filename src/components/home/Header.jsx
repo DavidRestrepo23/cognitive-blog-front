@@ -13,16 +13,14 @@ const HomeHeader = () => {
             <div className="col-12 col-sm-12 col-md-6">
               <h1>
                 <div>
-                  <span>
-                    Lorem Irsit <br /> ipsumdo
-                  </span>
+                  <h1><strong>Transformando el futuro a través de la tecnología y de los datos</strong></h1>
                 </div>
                 <div className="mt-4">
-                  <strong>Adipiscing elit sed od tempor</strong>
+                  <h2>Empieza la transformación digital de tu compañía a un solo clic</h2>
                 </div>
               </h1>
               <div className="mt-5">
-                <Link className="btn btn-default primary" to="#">Lorem Ipsum <i className="fas fa-long-arrow-alt-right"></i></Link>
+                <Link className="btn btn-default primary" to="#">Asesoría gratis <i className="fas fa-long-arrow-alt-right"></i></Link>
               </div>
             </div>
             <div className="col-12 col-sm-12 col-md-6">

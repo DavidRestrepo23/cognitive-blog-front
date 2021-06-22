@@ -12,11 +12,9 @@ const WorkUs = () => {
                 ¿Por qué trabajar con <strong>Nosotros?</strong>
               </h2>
             </div>
-            <div className="text-center mt-4">
+            <div className="text-center my-5">
               <small>
-                Ut wisi enim ad minim veniam, quis nostrud exercitation
-                ullamcorper <br /> suscipit lobortis nisl ut aliquip ex ea commodo
-                consequat.
+              Nuestro enfoque hacia los soluciones es enfocado a cada uno de los  diferentes modelos de negocio  de nuestros clientes.  <br/>Entender,  estudiar e iterar con nuestras soluciones es nuestro enfoque para mejorar cada uno
               </small>
             </div>
           </div>
@@ -32,9 +30,9 @@ const WorkUs = () => {
                   <div className="content-workus">
                     <div><img src={Icon} width="60px" alt="" /></div>
                     <div className="content-workus-text">
-                      <h4>Lorem Ipsum dolerd 1</h4>
+                      <h4>Estrategia</h4>
                       <p>
-                      Ut wisi enim ad minim veniam, quis nostrud exercitation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+                      Te ayudamos a entender tu negocio desde un punto de vista técnico y buscamos la mejor solución para tu necesidad.
                      </p>
                     </div>
                   </div>
@@ -43,9 +41,9 @@ const WorkUs = () => {
                   <div className="content-workus">
                     <div><img src={Icon} width="60px" alt="" /></div>
                     <div className="content-workus-text">
-                      <h4>Lorem Ipsum dolerd 2</h4>
+                      <h4>Servicio al cliente</h4>
                       <p>
-                      Ut wisi enim ad minim veniam, quis nostrud exercitation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+                      Tenemos un equipo encargado de llevar a cabo tus proyectos y estar pendiente de que todo salga en el tiempo establecido y en óptima calidad.
                      </p>
                     </div>
                   </div>
@@ -54,9 +52,9 @@ const WorkUs = () => {
                   <div className="content-workus">
                     <div><img src={Icon} width="60px" alt="" /></div>
                     <div className="content-workus-text">
-                      <h4>Lorem Ipsum dolerd 3</h4>
+                      <h4>Nos encanta el diseño</h4>
                       <p>
-                      Ut wisi enim ad minim veniam, quis nostrud exercitation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+                      Nos tomamos en serio nuestros trabajos y la calidad de nuestros desarrollos. 
                      </p>
                     </div>
                   </div>

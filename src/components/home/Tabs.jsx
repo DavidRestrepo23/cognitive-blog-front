@@ -5,7 +5,7 @@ import phoneImage from "../../images/phone.png";
 const Tabs = () => {
   return (
     <>
-      <section className="my-5 py-5 section-tabs">
+      <section className="mb-5 pb-5 section-tabs">
         <div className="container">
           <div className="row">
             <div className="col-12">
@@ -33,7 +33,7 @@ const Tabs = () => {
                     aria-controls="home"
                     aria-selected="true"
                   >
-                    Uit wisi enim
+                    Ciencia de datos
                   </button>
                 </li>
                 <li className="nav-item" role="presentation">
@@ -47,7 +47,7 @@ const Tabs = () => {
                     aria-controls="profile"
                     aria-selected="false"
                   >
-                    Quis nostrud
+                    Soluciones a la medida
                   </button>
                 </li>
                 <li className="nav-item" role="presentation">
@@ -61,7 +61,7 @@ const Tabs = () => {
                     aria-controls="contact"
                     aria-selected="false"
                   >
-                    Sed diam
+                    Transformación digital
                   </button>
                 </li>
                 <li className="nav-item" role="presentation">
@@ -75,7 +75,7 @@ const Tabs = () => {
                     aria-controls="other"
                     aria-selected="false"
                   >
-                    Suscipit
+                    Equipos a la medida
                   </button>
                 </li>
               </ul>
@@ -89,24 +89,28 @@ const Tabs = () => {
                   <div className="row content-tabs align-items-center">
                     <div className="col-12 col-md-6">
                       <div>
-                        <h4>Ut wisi enim</h4>
+                        <h4>Ciencia de datos</h4>
                       </div>
                       <div className="my-4">
                         <h2>
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          elit, sed diam
+                          Creamos proyectos en ciencia de datos según las necesidades de cada cliente.
+                          ¿No sabes por dónde empezar? Nosotros te ayudamos a estructurar y a entender cuál debería ser ese punto de partida de tu proyecto.
                         </h2>
                       </div>
                       <div>
-                        <p>
-                          Ut wisi enim ad minim veniam, quis nostrud
-                          exercitation ullamcorper suscipit lobortis nisl ut
-                          aliquip ex ea commodo consequat.
-                        </p>
+                        <ul className="px-3">
+                          <li>Analisis modelos de negocio</li>
+                          <li>Gobierno del Dato</li>
+                          <li>Fuentes de Datos</li>
+                          <li>Limpieza de Datos</li>
+                          <li>Creacion de Datalakes</li>
+                          <li>Entre otros</li>
+                        </ul>
                       </div>
+                      <hr className="my-5" />
                       <div className="mt-5">
                         <Link className="btn btn-default" to="#">
-                          Lorem Ipsum{" "}
+                          Obten Asesoría
                           <i className="fas fa-long-arrow-alt-right"></i>
                         </Link>
                       </div>
@@ -114,11 +118,11 @@ const Tabs = () => {
                     <div className="col-12 col-md-6 text-center p-md-5">
                       <div className="content-image-phone">
                         <div>
-                          <img className="px-md-5 pt-5 pt-md-0" src={phoneImage}  alt="" />
+                          <img className="px-md-5 pt-5 pt-md-0" src={phoneImage} alt="" />
                         </div>
                         <div className="circle"></div>
                       </div>
-                      
+
                     </div>
                   </div>
                 </div>
@@ -128,10 +132,44 @@ const Tabs = () => {
                   role="tabpanel"
                   aria-labelledby="profile-tab"
                 >
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui,
-                  rem velit nulla, dolores natus nemo adipisci porro nobis iure
-                  minus error amet sequi dolorem est voluptatem quo, id sed
-                  perspiciatis!
+                  <div className="row content-tabs align-items-center">
+                    <div className="col-12 col-md-6">
+                      <div>
+                        <h4>Soluciones a la medida para empresas</h4>
+                      </div>
+                      <div className="my-4">
+                        <h2>
+                          Estructuramos y diseñamos aplicaciones de software personalizadas con soluciones tecnológicas innovadoras y únicas. Además, con metodologías ágiles, establecemos soluciones para ayudar a que tu negocio y tus procesos sean óptimos.
+                        </h2>
+                      </div>
+                      <div>
+                        <ul className="px-3">
+                          <li>ERPs</li>
+                          <li>Apps </li>
+                          <li>Ecommerce</li>
+                          <li>Aplicativos Web</li>
+                          <li>Arquitectura </li>
+                          <li>Ciberseguridad</li>
+                        </ul>
+                      </div>
+                      <hr className="my-5" />
+                      <div className="mt-5">
+                        <Link className="btn btn-default" to="#">
+                          Contáctanos
+                          <i className="fas fa-long-arrow-alt-right"></i>
+                        </Link>
+                      </div>
+                    </div>
+                    <div className="col-12 col-md-6 text-center p-md-5">
+                      <div className="content-image-phone">
+                        <div>
+                          <img className="px-md-5 pt-5 pt-md-0" src={phoneImage} alt="" />
+                        </div>
+                        <div className="circle"></div>
+                      </div>
+
+                    </div>
+                  </div>
                 </div>
                 <div
                   className="tab-pane px-5 fade"
@@ -139,10 +177,44 @@ const Tabs = () => {
                   role="tabpanel"
                   aria-labelledby="contact-tab"
                 >
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui,
-                  rem velit nulla, dolores natus nemo adipisci porro nobis iure
-                  minus error amet sequi dolorem est voluptatem quo, id sed
-                  perspiciatis!
+                  <div className="row content-tabs align-items-center">
+                    <div className="col-12 col-md-6">
+                      <div>
+                        <h4>Transformación digital</h4>
+                      </div>
+                      <div className="my-4">
+                        <h2>
+
+                          Te ayudamos a entender cuales son los retos en transformación digital de tu compañía. Te acompañamos en la creación de procesos, arquitectura y cultura con un enfoque digital de nueva generación.
+                        </h2>
+                      </div>
+                      <div>
+                        <ul className="px-3">
+                          <li>Liderazgo del proyecto</li>
+                          <li>Road map</li>
+                          <li>Gestion del cambio</li>
+                          <li>Marketing Digital</li>
+                          <li>Búsqueda de perfiles</li>
+                        </ul>
+                      </div>
+                      <hr className="my-5" />
+                      <div className="mt-5">
+                        <Link className="btn btn-default" to="#">
+                          Contáctanos
+                          <i className="fas fa-long-arrow-alt-right"></i>
+                        </Link>
+                      </div>
+                    </div>
+                    <div className="col-12 col-md-6 text-center p-md-5">
+                      <div className="content-image-phone">
+                        <div>
+                          <img className="px-md-5 pt-5 pt-md-0" src={phoneImage} alt="" />
+                        </div>
+                        <div className="circle"></div>
+                      </div>
+
+                    </div>
+                  </div>
                 </div>
                 <div
                   className="tab-pane px-5 fade"
@@ -150,10 +222,34 @@ const Tabs = () => {
                   role="tabpanel"
                   aria-labelledby="other-tab"
                 >
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui,
-                  rem velit nulla, dolores natus nemo adipisci porro nobis iure
-                  minus error amet sequi dolorem est voluptatem quo, id sed
-                  perspiciatis!
+                  <div className="row content-tabs align-items-center">
+                    <div className="col-12 col-md-6">
+                      <div>
+                        <h4>Equipos a la medida</h4>
+                      </div>
+                      <div className="my-4">
+                        <h2>
+                        Te acompanamos en la busqueda de talento para tus equipos in house. Somos expertos en la busqueda de desarrolladores, cientificos de datos y talentos en tecnologia. Déjanos hacer el trabajo por ti.
+                        </h2>
+                      </div>
+                      <hr className="my-5" />
+                      <div className="mt-5">
+                        <Link className="btn btn-default" to="#">
+                          Contáctanos
+                          <i className="fas fa-long-arrow-alt-right"></i>
+                        </Link>
+                      </div>
+                    </div>
+                    <div className="col-12 col-md-6 text-center p-md-5">
+                      <div className="content-image-phone">
+                        <div>
+                          <img className="px-md-5 pt-5 pt-md-0" src={phoneImage} alt="" />
+                        </div>
+                        <div className="circle"></div>
+                      </div>
+
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>

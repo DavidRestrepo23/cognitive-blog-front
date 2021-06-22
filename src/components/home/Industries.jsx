@@ -1,10 +1,4 @@
 import React from "react"
-import retailImage from '../../images/retail.png'
-import gobiernoImage from '../../images/gobierno.png'
-import tecnologiaImage from '../../images/tecnologia.png'
-import manoFacturaImage from '../../images/mano_factura.png'
-import logisticaImage from '../../images/logistica.png'
-
 
 const Industries = () => {
   return (
@@ -19,9 +13,9 @@ const Industries = () => {
             </div>
             <div className="my-4">
               <small>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Voluptate rerum doloremque dolorum molestias dolor similique
-                voluptatum reiciendis.
+                Estas son algunas de los mercados donde hemos creado valor para nuestros clientes.
+                Entendemos las necesidades que presentan los diferentes modelos de negocio digitales y como desde la ciencia de datos aportamos a la creacion de valor en las diferentes industrias.
+
               </small>
             </div>
           </div>
