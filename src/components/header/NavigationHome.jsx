@@ -43,7 +43,7 @@ const NavigationHome = () => {
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link contact-link" aria-current="page" to="/">
+                  <Link className="nav-link contact-link" aria-current="page" to="https://api.whatsapp.com/send?phone=573213485157&text=Hola!%20Me%20gustar%C3%ADa%20saber%20m%C3%A1s%20sobre%20los%20servicios%20de%20Cognityve.%20Muchas%20gracias%20%F0%9F%98%80" target="_blank">
                     Contáctanos
                   </Link>
                 </li>

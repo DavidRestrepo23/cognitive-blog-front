@@ -5,8 +5,8 @@ import phoneImage from "../../images/phone.png";
 const Tabs = () => {
   return (
     <>
-      <section className="mb-5 pb-5 section-tabs">
-        <div className="container">
+      <section className="mb-md-5 pb-md-5 py-5 mt-5 section-tabs">
+        <div className="container py-5 mt-5">
           <div className="row">
             <div className="col-12">
               <h2 className="txt-left">
@@ -79,9 +79,9 @@ const Tabs = () => {
                   </button>
                 </li>
               </ul>
-              <div className="tab-content px-5" id="myTabContent">
+              <div className="tab-content py-5 py-md-0 px-sm-5" id="myTabContent">
                 <div
-                  className="tab-pane p-3 px-md-5 fade show active"
+                  className="tab-pane px-4 px-md-5 fade show active"
                   id="home"
                   role="tabpanel"
                   aria-labelledby="home-tab"
@@ -127,7 +127,7 @@ const Tabs = () => {
                   </div>
                 </div>
                 <div
-                  className="tab-pane px-5 fade"
+                  className="tab-pane px-4 px-md-5 fade"
                   id="profile"
                   role="tabpanel"
                   aria-labelledby="profile-tab"
@@ -172,7 +172,7 @@ const Tabs = () => {
                   </div>
                 </div>
                 <div
-                  className="tab-pane px-5 fade"
+                  className="tab-pane px-4 px-md-5 fade"
                   id="contact"
                   role="tabpanel"
                   aria-labelledby="contact-tab"
@@ -217,7 +217,7 @@ const Tabs = () => {
                   </div>
                 </div>
                 <div
-                  className="tab-pane px-5 fade"
+                  className="tab-pane px-4 px-md-5 fade"
                   id="other"
                   role="tabpanel"
                   aria-labelledby="other-tab"

@@ -24,7 +24,7 @@ const Talent = () => {
         </div>
 
         <div className="row mt-5 pt-5 justify-content-center talent">
-          <div className="col-6 col-md-4 talent text-center mb-5 mb-md-5">
+          <div className="col-12 col-md-4 talent text-center my-5 mb-md-5">
             <div className="talent-box">
               <div>
                 <img src="https://via.placeholder.com/150x210" alt="" />
@@ -40,7 +40,7 @@ const Talent = () => {
               </div>
             </div>
           </div>
-          <div className="col-6 col-md-4 talent text-center mb-5 mb-md-5">
+          <div className="col-12 col-md-4 talent text-center my-5 mb-md-5">
             <div className="talent-box">
               <div>
                 <img src="https://via.placeholder.com/150x210" alt="" />
@@ -55,7 +55,7 @@ const Talent = () => {
               </div>
             </div>
           </div>
-          <div className="col-6 col-md-4 talent text-center mb-5 mb-md-5">
+          <div className="col-12 col-md-4 talent text-center my-5 mb-md-5">
             <div className="talent-box">
               <div>
                 <img src="https://via.placeholder.com/150x210" alt="" />
@@ -70,7 +70,7 @@ const Talent = () => {
               </div>
             </div>
           </div>
-          <div className="col-6 col-md-4 talent text-center my-5 mb-md-5">
+          <div className="col-12 col-md-4 talent text-center my-5 mb-md-5">
             <div className="talent-box">
               <div>
                 <img src="https://via.placeholder.com/150x210" alt="" />
@@ -85,7 +85,7 @@ const Talent = () => {
               </div>
             </div>
           </div>
-          <div className="col-6 col-md-4 talent text-center my-5 mb-md-5">
+          <div className="col-12 col-md-4 talent text-center my-5 mb-md-5">
             <div className="talent-box">
               <div>
                 <img src="https://via.placeholder.com/150x210" alt="" />
@@ -100,7 +100,7 @@ const Talent = () => {
               </div>
             </div>
           </div>
-          <div className="col-6 col-md-4 talent text-center my-5 mb-md-5">
+          <div className="col-12 col-md-4 talent text-center my-5 mb-md-5">
             <div className="talent-box">
               <div>
                 <img src="https://via.placeholder.com/150x210" alt="" />

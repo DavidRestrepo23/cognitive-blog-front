@@ -18,7 +18,7 @@ const OurParthers = () => {
             </h2>
           </div>
         </div>
-        <div className="row mt-5">
+        <div className="row mt-md-5">
           <div
             id="carouselCognityvePathers"
             className="carousel slide"
@@ -43,43 +43,47 @@ const OurParthers = () => {
             <div className="carousel-inner">
               <div className="carousel-item active"  data-bs-interval="500">
                 <div className="row items1">
-                  <div className="col-12 col-sm-12 col-md-3 text-center">
+                  <div className="col-6 col-sm-12 col-md-3 text-center">
                     <img
                       src={tenXthinking}
                       width="180"
                       className="carousel-item-img"
                       alt=""
                     />
+                    <h4>Transformación <br/> digital</h4>
                   </div>
-                  <div className="col-12 col-sm-12 col-md-3 text-center">
+                  <div className="col-6 col-sm-12 col-md-3 text-center">
                     <img
                       src={atlasSeguridad}
                       width="180"
                       className="carousel-item-img"
                       alt=""
                     />
+                    <h4>Desarrollo a la medida </h4>
                   </div>
-                  <div className="col-12 col-sm-12 col-md-3 text-center">
+                  <div className="col-6 col-sm-12 col-md-3 text-center">
                     <img
                       src={gobernacionAntioquia}
                       width="180"
                       className="carousel-item-img"
                       alt=""
                     />
+                    <h4>Desarrollo de aplicativo web</h4>
                   </div>
-                  <div className="col-12 col-sm-12 col-md-3 text-center">
+                  <div className="col-6 col-sm-12 col-md-3 text-center">
                     <img
                       src={kendalFloral}
                       width="180"
                       className="carousel-item-img"
                       alt=""
                     />
+                    <h4>Desarrollo de E-commerce</h4>
                   </div>
                 </div>
               </div>
               <div className="carousel-item"  data-bs-interval="500">
                 <div className="row items1">
-                  <div className="col-12 col-sm-12 col-md-3 text-center">
+                  <div className="col-6 col-sm-12 col-md-3 text-center">
                     <img
                       src={avionicStudio}
                       width="180"
@@ -87,7 +91,7 @@ const OurParthers = () => {
                       alt=""
                     />
                   </div>
-                  <div className="col-12 col-sm-12 col-md-3 text-center">
+                  <div className="col-6 col-sm-12 col-md-3 text-center">
                     <img
                       src={jepmobiliari}
                       width="180"
@@ -95,7 +99,7 @@ const OurParthers = () => {
                       alt=""
                     />
                   </div>
-                  <div className="col-12 col-sm-12 col-md-3 text-center">
+                  <div className="col-6 col-sm-12 col-md-3 text-center">
                     <img
                       src={meego}
                       width="180"

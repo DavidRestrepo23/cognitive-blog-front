@@ -3,7 +3,7 @@ import Icon from "../../images/icon2_on.png"
 
 const WorkUs = () => {
   return (
-    <section className="my-5 py-5">
+    <section className="my-5 py-5 workus-section">
       <div className="container">
         <div className="row">
           <div className="col-12">
@@ -12,7 +12,7 @@ const WorkUs = () => {
                 ¿Por qué trabajar con <strong>Nosotros?</strong>
               </h2>
             </div>
-            <div className="text-center my-5">
+            <div className="text-center my-5 px-4 px-sm-0">
               <small>
               Nuestro enfoque hacia los soluciones es enfocado a cada uno de los  diferentes modelos de negocio  de nuestros clientes.  <br/>Entender,  estudiar e iterar con nuestras soluciones es nuestro enfoque para mejorar cada uno
               </small>
@@ -28,7 +28,7 @@ const WorkUs = () => {
               <div className="cards">
                 <label className="card" for="item-1" id="song-1">
                   <div className="content-workus">
-                    <div><img src={Icon} width="60px" alt="" /></div>
+                    <div className="content-workus-icon"><img src={Icon} width="60px" alt="" /></div>
                     <div className="content-workus-text">
                       <h4>Estrategia</h4>
                       <p>
@@ -39,7 +39,7 @@ const WorkUs = () => {
                 </label>
                 <label className="card" for="item-2" id="song-2">
                   <div className="content-workus">
-                    <div><img src={Icon} width="60px" alt="" /></div>
+                    <div className="content-workus-icon"><img src={Icon} width="60px" alt="" /></div>
                     <div className="content-workus-text">
                       <h4>Servicio al cliente</h4>
                       <p>
@@ -50,7 +50,7 @@ const WorkUs = () => {
                 </label>
                 <label className="card" for="item-3" id="song-3">
                   <div className="content-workus">
-                    <div><img src={Icon} width="60px" alt="" /></div>
+                    <div className="content-workus-icon"><img src={Icon} width="60px" alt="" /></div>
                     <div className="content-workus-text">
                       <h4>Nos encanta el diseño</h4>
                       <p>

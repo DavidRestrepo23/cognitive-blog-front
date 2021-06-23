@@ -2,9 +2,9 @@ import React from "react"
 
 const Industries = () => {
   return (
-    <section className="mt-5 pt-5 industries-section">
-      <div className="container mt-5 pt-5 ">
-        <div className="row mt-5 pt-5">
+    <section className="mt-md-5 pt-md-5 industries-section">
+      <div className="container mt-md-5 pt-md-5 ">
+        <div className="row mt-md-5 pt-md-5">
           <div className="col-12 col-md-6">
             <div>
               <h2 className="txt-left">
@@ -20,7 +20,7 @@ const Industries = () => {
             </div>
           </div>
         </div>
-        <div className="row justify-content-center mt-5 pt-5 industries">
+        <div className="row justify-content-center mt-md-5 pt-md-5 industries">
           <div className="col-6 col-sm-3 col-md-2 pb-5 induestrie-item induestrie-item-1 pl-0 text-center">
             <div className="retail-img"></div>
             <div className="my-3">
