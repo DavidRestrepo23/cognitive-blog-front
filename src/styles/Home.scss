@@ -24,6 +24,17 @@ header {
       }
     }
   }
+
+  .navbar-toggler {
+    i {
+      color:#f3f6fb
+    }
+
+    &:focus {
+      outline: 0;
+      box-shadow: none;
+    }
+  }
  
   .navigation-home {
     background-color: transparent !important;
@@ -231,14 +242,13 @@ section {
   }
 
   i {
-    background: #fff;
-    color: #f7324e;
-    padding: 18px !important;
-    border-radius: 50%;
-    position: absolute;
-    top: 7px;
-    right: 7px;
-    transition: .8s;
+    background: #f7324e;
+      color: #fff;
+      padding: 10px;
+      border-radius: 50%;
+      position: absolute;
+      top: 7px;
+      right: 5px;
 
     @media (max-width:767px) {
       top:4px;
@@ -253,7 +263,6 @@ section {
     i {
       background-color: #fff;
       color: #f7324e;
-      padding: 18px !important;
     }
   }
 }
@@ -350,7 +359,7 @@ section {
         font-weight: 700;
       }
       h2 {
-        font-weight: 700;
+        font-weight: 500;
         font-size: 28px;
       }
 
@@ -582,9 +591,11 @@ section {
   }
 }
 
-.carousel-indicators {
-  bottom: -75px !important;
-  align-items: center !important;
+@media (min-width: 1200px) {
+  .carousel-indicators {
+    bottom: -85px !important;
+    align-items: center !important;
+  }  
 }
 
 .carousel-indicators button {
@@ -715,6 +726,11 @@ section {
       box-shadow: 0px 5px 99px #0000001A;
       display: flex;
       align-items: center;
+      transition: .2s;
+
+      &:hover {
+        background-color: #040e30;
+      }
 
       @media (max-width:750px) {
         
@@ -744,6 +760,19 @@ section {
           color:#000030
         }
       }
+
+      &:hover {
+        background-color: #040e30;
+        .content-workus-text {
+          h4 {
+            color: #f3f6fb;
+          }
+          p {
+            color:#f3f6fb
+          }
+        }
+      }
+
     }
   }
   
@@ -767,17 +796,6 @@ section {
     z-index: 1;
   }
 
-  #item-2:checked ~ .player #test {
-    transform: translateY(0);
-  }
-  
-  #item-2:checked ~ .player #test  {
-    transform: translateY(-40px);
-  }
-  
-  #item-3:checked ~ .player #test  {
-    transform: translateY(-80px);
-  }
 }
 
 @media (max-width: 676px) {
@@ -811,4 +829,179 @@ section {
     }
 
   }
+}
+
+
+/* don't display the checkbox */
+.full-chk {
+	display: none;
+}
+
+
+/* container object for the hamburger */
+.full-cntr {
+  position: absolute;
+  right: 9px;
+  top: 33px !important;
+  z-index: 300;
+  cursor: pointer;
+  font-size: 20px;
+  color: #fff;
+}
+
+.full-chk:checked + .full-cntr {
+	border-color: #ffffff;
+}
+
+.full-chk:checked + .full-cntr > .full-span {
+	background-color: #ffffff;
+}
+
+.full-span:nth-child(1) {
+	top: 4px;
+}
+
+.full-chk:checked + .full-cntr > .full-span:nth-child(1) {
+	transform: rotate(45deg);
+	width: 23px;
+	left: 11px;
+}
+
+.full-span:nth-child(2) {
+	top: 12px;
+}
+
+.full-chk:checked + .full-cntr > .full-span:nth-child(2) {
+	opacity: 0;
+	width: 30px;
+	
+	transition: opacity 0.1s ease-out 0s;
+}
+
+.full-span:nth-child(3) {
+	top: 20px;
+}
+
+.full-chk:checked + .full-cntr > .full-span:nth-child(3) {
+	transform: rotate(-45deg);
+	width: 23px;
+	left: 11px;
+}
+
+
+/* style for a nav element, the full-screen menu  */
+.full-nav {
+	position: fixed;
+	top: 0%;
+	bottom: 0%;
+	left: 0%;
+	right: 0%;
+	background-color: #040e30;
+	opacity: 0;
+	z-index: -1;
+	transition: opacity 0.3s ease-out 0s,
+		z-index 0s ease-out 0.3s;
+}
+
+.full-chk:checked ~ .full-nav {
+	opacity: .8;
+	z-index: 200;
+
+	transition: opacity 0.3s ease-out 0s;
+}
+
+
+/* unordered list inside nav element or .full-nav */
+/* make position relative to help vertically align menu */
+.full-nav-ul {
+	position: relative;
+	height: 100%;
+	margin: 0px auto 0px auto;
+	padding: 0px;
+	list-style-type: none;
+}
+
+
+/* for vertically aligning our menu */
+.full-nav-cntr {
+	position: absolute;
+	top: 48%;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	transform: translate(0%, -50%);
+}
+
+
+/* give the mouse cursor a signal */
+.full-nav-hltd {
+	padding: 5px 10px 5px 10px;
+
+}
+
+.full-nav-hltd:hover {
+	background-color: #08737b;
+}
+
+
+/* undecorate links */
+.full-nav-a, .full-nav-a:visited, .full-nav-a:active {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+
+/* link text inside .full-nav-li */
+.full-nav-p {
+	margin: 10px 0px 10px 0px;
+	padding: 5px 0px 5px 0px;
+	font-family: 'Helvetica', 'Arial', sans-serif;
+	font-size: 14px;
+	text-align: center;
+}
+
+	@media (min-width: 700px) and (min-height: 450px) {
+		.full-nav-p {
+			font-size: 26px;
+		}
+	}
+
+
+/* main  area */
+.full-main {
+	width: 100%;
+	margin: 10px 0px 20px 0px;
+	padding: 0px;
+	background-color: #ffffff;
+	z-index: 0;
+}
+
+
+/* adjusted content area */
+.full-content {
+	width: 90%;
+	max-width: 400px;
+	margin: 30px auto 70px auto;
+}
+
+@media (min-width: 600px) {
+	.full-content {
+		width: 80%;
+		max-width: 450px;
+		margin: 50px auto 70px auto;
+	}
+}
+
+
+/* for styling content from shakespeare.mit.edu/midsummer/midsummer.5.1.html */
+h3, b {
+	color: #009fab;
+}
+
+
+.full-content > a,
+.full-content > blockquote > a,
+.full-content > blockquote > p {
+	color: #303030;
+	font-size: 0.95rem;
 }

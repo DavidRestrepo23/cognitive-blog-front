@@ -9,12 +9,12 @@ const WorkUs = () => {
           <div className="col-12">
             <div>
               <h2 className="text-center">
-                ¿Por qué trabajar con <strong>Nosotros?</strong>
+                ¿Por qué trabajar con <strong>nosotros?</strong>
               </h2>
             </div>
-            <div className="text-center my-5 px-4 px-sm-0">
+            <div className="text-center my-5 px-sm-0">
               <small>
-              Nuestro enfoque hacia los soluciones es enfocado a cada uno de los  diferentes modelos de negocio  de nuestros clientes.  <br/>Entender,  estudiar e iterar con nuestras soluciones es nuestro enfoque para mejorar cada uno
+              Para brindar las mejores soluciones a nuestros clientes estudiamos, conceptualizamos y entendemos cada uno  de los diferentes <br/> modelos  de negocio en los cuales está sustentada su compañía,  con el fin de encontrar y dar solución a las verdaderas necesidades.
               </small>
             </div>
           </div>

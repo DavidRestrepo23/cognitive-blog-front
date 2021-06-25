@@ -5,13 +5,12 @@ import phoneImage from "../../images/phone.png";
 const Tabs = () => {
   return (
     <>
-      <section className="mb-md-5 pb-md-5 py-5 mt-5 section-tabs">
+      <section className="mb-md-5 pb-md-5 py-4 section-tabs">
         <div className="container py-5 mt-5">
           <div className="row">
             <div className="col-12">
               <h2 className="txt-left">
-                Acerca cómo <strong>Cognitive</strong> <br /> ayuda a tu
-                crecimiento
+                Conoce cómo podemos <br />  ayudar a <strong> tu crecimiento </strong>
               </h2>
             </div>
           </div>
@@ -88,10 +87,8 @@ const Tabs = () => {
                 >
                   <div className="row content-tabs align-items-center">
                     <div className="col-12 col-md-6">
-                      <div>
-                        <h4>Ciencia de datos</h4>
-                      </div>
-                      <div className="my-4">
+                      
+                      <div className="mb-5">
                         <h2>
                           Creamos proyectos en ciencia de datos según las necesidades de cada cliente.
                           ¿No sabes por dónde empezar? Nosotros te ayudamos a estructurar y a entender cuál debería ser ese punto de partida de tu proyecto.
@@ -99,18 +96,18 @@ const Tabs = () => {
                       </div>
                       <div>
                         <ul className="px-3">
-                          <li>Analisis modelos de negocio</li>
-                          <li>Gobierno del Dato</li>
-                          <li>Fuentes de Datos</li>
-                          <li>Limpieza de Datos</li>
-                          <li>Creacion de Datalakes</li>
+                          <li>Análisis de modelos de negocio</li>
+                          <li>Gobierno del dato</li>
+                          <li>Fuentes de datos</li>
+                          <li>Limpieza de datos</li>
+                          <li>Creación de data lakes</li>
                           <li>Entre otros</li>
                         </ul>
                       </div>
                       <hr className="my-5" />
                       <div className="mt-5">
                         <Link className="btn btn-default" to="#">
-                          Obten Asesoría
+                          Obtén Asesoría
                           <i className="fas fa-long-arrow-alt-right"></i>
                         </Link>
                       </div>
@@ -134,10 +131,8 @@ const Tabs = () => {
                 >
                   <div className="row content-tabs align-items-center">
                     <div className="col-12 col-md-6">
-                      <div>
-                        <h4>Soluciones a la medida para empresas</h4>
-                      </div>
-                      <div className="my-4">
+                      
+                      <div className="mb-5">
                         <h2>
                           Estructuramos y diseñamos aplicaciones de software personalizadas con soluciones tecnológicas innovadoras y únicas. Además, con metodologías ágiles, establecemos soluciones para ayudar a que tu negocio y tus procesos sean óptimos.
                         </h2>
@@ -179,12 +174,9 @@ const Tabs = () => {
                 >
                   <div className="row content-tabs align-items-center">
                     <div className="col-12 col-md-6">
-                      <div>
-                        <h4>Transformación digital</h4>
-                      </div>
-                      <div className="my-4">
+                      
+                      <div className="mb-5">
                         <h2>
-
                           Te ayudamos a entender cuales son los retos en transformación digital de tu compañía. Te acompañamos en la creación de procesos, arquitectura y cultura con un enfoque digital de nueva generación.
                         </h2>
                       </div>
@@ -192,8 +184,8 @@ const Tabs = () => {
                         <ul className="px-3">
                           <li>Liderazgo del proyecto</li>
                           <li>Road map</li>
-                          <li>Gestion del cambio</li>
-                          <li>Marketing Digital</li>
+                          <li>Gestión del cambio</li>
+                          <li>Marketing digital</li>
                           <li>Búsqueda de perfiles</li>
                         </ul>
                       </div>
@@ -224,12 +216,11 @@ const Tabs = () => {
                 >
                   <div className="row content-tabs align-items-center">
                     <div className="col-12 col-md-6">
-                      <div>
-                        <h4>Equipos a la medida</h4>
-                      </div>
-                      <div className="my-4">
+                      <div className="mb-5">
                         <h2>
-                        Te acompanamos en la busqueda de talento para tus equipos in house. Somos expertos en la busqueda de desarrolladores, cientificos de datos y talentos en tecnologia. Déjanos hacer el trabajo por ti.
+                          Te acompañamos en la búsqueda de talento para tus equipos in house.
+                          Somos expertos en la búsqueda de desarrolladores, científicos de datos y talentos en tecnología. ¡Déjanos hacer el trabajo por ti!
+
                         </h2>
                       </div>
                       <hr className="my-5" />

@@ -10,12 +10,12 @@ const Slider = () => {
             <h2 className="txt-right">
               Nuestros casos de{" "}
               <strong>
-                éxito <br className="d-none d-sm-block" /> en Cognityve
+                éxito <br className="d-none d-sm-block" />
               </strong>
             </h2>
             <div className="my-4">
               <small>
-                Conoce las historias de las marcas nacionales e internacionles <br /> a las que hemos ayudado con éxito en sus proyectos
+                Conoce las historias de las marcas nacionales e internacionales <br /> que hemos ayudado con éxito en sus proyectos
               </small>
             </div>
           </div>

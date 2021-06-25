@@ -2,11 +2,15 @@ import React from "react"
 import { Helmet } from "react-helmet"
 import "../../styles/global.scss"
 import "../../styles/Home.scss"
+import favicon from "../../images/cognityve_favicon.jpg"
 
 const Head = props => {
   return (
     <Helmet>
       <title>Cognitive - {props.titlePage}</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href={favicon} type="image/x-icon" />  
+
 
       <link
         href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"

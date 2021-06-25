@@ -1,4 +1,10 @@
 import React from "react"
+import talentWeb1 from "../../images/santiago_web.png"
+import talentWeb2 from "../../images/kelly_web.png"
+import talentWeb3 from "../../images/lina_web.png"
+import talentWeb4 from "../../images/lorena_web.png"
+import talentWeb5 from "../../images/paula_web.png"
+
 
 const Talent = () => {
   return (
@@ -9,14 +15,12 @@ const Talent = () => {
             <div>
               <div>
                 <h2 className="txt-left">
-                  Todo nuestro talento <strong>humano</strong>
+                 Mayor <strong>activo</strong>
                 </h2>
               </div>
               <div className="mt-4">
                 <small>
-
-                  Somos una empresa multidisciplinaria apasionada por la tecnología y los datos. Creemos en la tecnología como motor de transformación de la sociedad, generando procesos eficientes en las empresas y optimizando sus operaciones. <br /><br />
-                  Nuestro propósito es transformar los entornos del sector TI proponiendo nuevas formas de trabajo colaborativo y agregando valor a los negocios de nuestros clientes.
+                  Somos una empresa multidisciplinaria apasionada por la tecnología y los datos. Creemos en la tecnología como motor de transformación de la sociedad, generando procesos eficientes en las empresas y optimizando sus operaciones.
                 </small>
               </div>
             </div>
@@ -27,7 +31,7 @@ const Talent = () => {
           <div className="col-12 col-md-4 talent text-center my-5 mb-md-5">
             <div className="talent-box">
               <div>
-                <img src="https://via.placeholder.com/150x210" alt="" />
+                <img src={talentWeb1} alt="" />
               </div>
               <div className="talent-box-info">
                 <div className="mt-5 mb-4">
@@ -43,22 +47,7 @@ const Talent = () => {
           <div className="col-12 col-md-4 talent text-center my-5 mb-md-5">
             <div className="talent-box">
               <div>
-                <img src="https://via.placeholder.com/150x210" alt="" />
-              </div>
-              <div className="talent-box-info">
-                <div className="mt-5 mb-4">
-                  <small>Esteban Salazar</small>
-                </div>
-                <div>
-                  <h4>Director de operaciones</h4>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="col-12 col-md-4 talent text-center my-5 mb-md-5">
-            <div className="talent-box">
-              <div>
-                <img src="https://via.placeholder.com/150x210" alt="" />
+                <img src={talentWeb3} alt="" />
               </div>
               <div className="talent-box-info">
                 <div className="mt-5 mb-4">
@@ -73,7 +62,7 @@ const Talent = () => {
           <div className="col-12 col-md-4 talent text-center my-5 mb-md-5">
             <div className="talent-box">
               <div>
-                <img src="https://via.placeholder.com/150x210" alt="" />
+                <img src={talentWeb4} alt="" />
               </div>
               <div className="talent-box-info">
                 <div className="mt-5 mb-4">
@@ -88,7 +77,7 @@ const Talent = () => {
           <div className="col-12 col-md-4 talent text-center my-5 mb-md-5">
             <div className="talent-box">
               <div>
-                <img src="https://via.placeholder.com/150x210" alt="" />
+                <img src={talentWeb2} alt="" />
               </div>
               <div className="talent-box-info">
                 <div className="mt-5 mb-4">
@@ -103,7 +92,7 @@ const Talent = () => {
           <div className="col-12 col-md-4 talent text-center my-5 mb-md-5">
             <div className="talent-box">
               <div>
-                <img src="https://via.placeholder.com/150x210" alt="" />
+                <img src={talentWeb5} alt="" />
               </div>
               <div className="talent-box-info">
                 <div className="mt-5 mb-4">
@@ -115,6 +104,7 @@ const Talent = () => {
               </div>
             </div>
           </div>
+
         </div>
       </div>
     </section>

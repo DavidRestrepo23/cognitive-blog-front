@@ -8,14 +8,12 @@ const Industries = () => {
           <div className="col-12 col-md-6">
             <div>
               <h2 className="txt-left">
-                Algunas de nuestras <strong>industrias</strong>
+              Algunas de las <strong>industrias</strong> donde <br/> hemos <strong>creado valor</strong> para nuestros cliente
               </h2>
             </div>
             <div className="my-4">
               <small>
-                Estas son algunas de los mercados donde hemos creado valor para nuestros clientes.
-                Entendemos las necesidades que presentan los diferentes modelos de negocio digitales y como desde la ciencia de datos aportamos a la creacion de valor en las diferentes industrias.
-
+              Entendemos las necesidades que presentan los diferentes modelos de negocios digitales y como desde la ciencia de datos aportamos a la creación de valor en las diferentes industrias. 
               </small>
             </div>
           </div>
@@ -42,7 +40,7 @@ const Industries = () => {
           <div className="col-6 col-sm-3 col-md-2 pb-5 induestrie-item induestrie-item-4 pl-0 text-center">
             <div className="mano_factura-img"></div>
             <div className="mt-3">
-              <small>MANOFACTURA</small>
+              <small>MANUFACTURA</small>
             </div>
           </div>
           <div className="col-6 col-sm-3 col-md-2 pb-5 induestrie-item pl-0 induestrie-item-5 text-center">

@@ -58,7 +58,7 @@ const Footer = () => {
               </ul>
             </div>
             <div className="col-12 col-md-4 my-4 mt-sm-5">
-              <h6 className="mb-4">Suscríbite a nuestra newsletter y obtén información para aprender constantemente y sobre los diferentes proyectos en los que estamos trabajando</h6>
+              <h6 className="mb-4">Suscríbete a nuestra newsletter y obtén información para aprender constantemente y conocer los diferentes proyectos en los que estamos trabajando.</h6>
               <ul className="p-0 m-0 d-block">
                 <li><div className="input-group mb-3">
                   <input type="text" className="form-control" placeholder="Enter your email" aria-label="Enter your email" aria-describedby="basic-addon2" />
