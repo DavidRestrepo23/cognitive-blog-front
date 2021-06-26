@@ -1,7 +1,7 @@
 import { Link } from "gatsby"
 import React from "react"
 import logo from '../../images/cognityve-logo-02.png'
-import logoWhite from "../../images/logo-white.svg"
+import logoWhite from "../../images/cognityve-logo-02.png"
 
 const NavigationHome = () => {
 

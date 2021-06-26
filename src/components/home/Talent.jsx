@@ -15,7 +15,7 @@ const Talent = () => {
             <div>
               <div>
                 <h2 className="txt-left">
-                 Mayor <strong>activo</strong>
+                 Nuestro equipo es  <br/> nuestro mayor <strong>activo</strong>
                 </h2>
               </div>
               <div className="mt-4">

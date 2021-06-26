@@ -49,7 +49,7 @@ const Footer = () => {
                 <li><Link to="/">Transformación digital</Link></li>
               </ul>
             </div>
-            <div className="col-12 col-md-2 my-4 mt-sm-5">
+            <div className="col-12 col-md-3 my-4 mt-sm-5">
               <h6 className="mb-4">Acerca</h6>
               <ul className="p-0 m-0 d-block">
                 <li><Link to="/">Nosotros</Link></li>
@@ -57,7 +57,7 @@ const Footer = () => {
                 <li><Link to="/">Casos de éxito</Link></li>
               </ul>
             </div>
-            <div className="col-12 col-md-4 my-4 mt-sm-5">
+            <div className="col-12 col-md-3 my-4 mt-sm-5">
               <h6 className="mb-4">Suscríbete a nuestra newsletter y obtén información para aprender constantemente y conocer los diferentes proyectos en los que estamos trabajando.</h6>
               <ul className="p-0 m-0 d-block">
                 <li><div className="input-group mb-3">

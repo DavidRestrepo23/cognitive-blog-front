@@ -25,6 +25,11 @@ header {
     }
   }
 
+  @media (max-width: 767px) {
+    background-image: url("../images/back_mobile.png");
+    background-position: inherit !important;
+  }
+
   .navbar-toggler {
     i {
       color:#f3f6fb
@@ -75,8 +80,10 @@ header {
 
   @media (max-width: 850px) {
     background-position: top;
+    padding: 20px;
     h1 {
-      line-height: 38px;
+      line-height: 30px;
+      font-size: 24px;
 
       strong {
         font-size: 30px;
@@ -84,7 +91,7 @@ header {
     }
 
     h2 {
-      font-size: 30px;
+      font-size: 22px;
       color: #fff;
     }
 
@@ -220,13 +227,15 @@ section {
     i {
       background: #f7324e;
       color: #fff;
-      padding: 10px;
+      padding: 17px;
       border-radius: 50%;
       position: absolute;
       top: 7px;
       right: 5px;
+      font-size: 20px;
     }
   }
+
   background-color: #f7324e;
   color: #fff;
   padding: 20px 100px 20px 31px;
@@ -242,16 +251,17 @@ section {
   }
 
   i {
-    background: #f7324e;
-      color: #fff;
-      padding: 10px;
+      background: #fff;
+      color: #f7324e;
+      padding: 18px;
       border-radius: 50%;
       position: absolute;
       top: 7px;
       right: 5px;
+      font-size: 18px;
 
     @media (max-width:767px) {
-      top:4px;
+      top:6px;
       padding: 9px !important;
     }
 
@@ -294,6 +304,9 @@ section {
 @media (max-width:750px) {
   .carousel-item-img {
     width: 100%;
+  }
+  .carousel-indicators {
+    bottom: -78px !important;
   }
 }
 
@@ -686,6 +699,7 @@ section {
   transition: background .1s ease-in;
   height: 310px;  
   margin-bottom: 300px;
+
   input[type=radio] {
     display: none;
   }
@@ -728,6 +742,30 @@ section {
       align-items: center;
       transition: .2s;
 
+      .strategy {
+        background-image: url("../images/Estrategia_Off.png");
+        background-repeat: no-repeat;
+        width: 77px;
+        height: 74px;
+        background-size: contain;
+      }
+
+      .service {
+        background-image: url("../images/Servicio_Cliente_Off.png");
+        background-repeat: no-repeat;
+        width: 77px;
+        height: 74px;
+        background-size: contain;
+      }
+
+      .design {
+        background-image: url("../images/Diseño_Off.png");
+        background-repeat: no-repeat;
+        width: 77px;
+        height: 74px;
+        background-size: contain;
+      }
+
       &:hover {
         background-color: #040e30;
       }
@@ -763,6 +801,31 @@ section {
 
       &:hover {
         background-color: #040e30;
+
+        .strategy {
+          background-image: url("../images/Estrategia_On.png");
+          background-repeat: no-repeat;
+          width: 77px;
+          height: 74px;
+          background-size: contain;
+        }
+  
+        .service {
+          background-image: url("../images/Servicio_Cliente_On.png");
+          background-repeat: no-repeat;
+          width: 77px;
+          height: 74px;
+          background-size: contain;
+        }
+  
+        .design {
+          background-image: url("../images/Diseño_On.png");
+          background-repeat: no-repeat;
+          width: 77px;
+          height: 74px;
+          background-size: contain;
+        }
+
         .content-workus-text {
           h4 {
             color: #f3f6fb;
@@ -779,20 +842,17 @@ section {
   #item-1:checked ~ .cards #song-3, #item-2:checked ~ .cards #song-1, #item-3:checked ~ .cards #song-2 {
     transform: translatex(0) scale(0.8);
     opacity: 0.6;
-    z-index: 0;
     top: -120px;
   }
   
   #item-1:checked ~ .cards #song-2, #item-2:checked ~ .cards #song-3, #item-3:checked ~ .cards #song-1 {
     transform: translatex(0%) scale(0.8);
     opacity: 0.6;
-    z-index: 0;
     bottom: -160px;
   }
   
   #item-1:checked ~ .cards #song-1, #item-2:checked ~ .cards #song-2, #item-3:checked ~ .cards #song-3 {
     transform: translatex(0) scale(1);
-    opacity: 1;
     z-index: 1;
   }
 
@@ -904,7 +964,7 @@ section {
 }
 
 .full-chk:checked ~ .full-nav {
-	opacity: .8;
+	opacity: .9;
 	z-index: 200;
 
 	transition: opacity 0.3s ease-out 0s;

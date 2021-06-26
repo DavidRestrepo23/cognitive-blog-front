@@ -28,7 +28,7 @@ const WorkUs = () => {
               <div className="cards">
                 <label className="card" for="item-1" id="song-1">
                   <div className="content-workus">
-                    <div className="content-workus-icon"><img src={Icon} width="60px" alt="" /></div>
+                    <div className="content-workus-icon strategy"></div>
                     <div className="content-workus-text">
                       <h4>Estrategia</h4>
                       <p>
@@ -39,7 +39,7 @@ const WorkUs = () => {
                 </label>
                 <label className="card" for="item-2" id="song-2">
                   <div className="content-workus">
-                    <div className="content-workus-icon"><img src={Icon} width="60px" alt="" /></div>
+                    <div className="content-workus-icon service"></div>
                     <div className="content-workus-text">
                       <h4>Servicio al cliente</h4>
                       <p>
@@ -50,7 +50,7 @@ const WorkUs = () => {
                 </label>
                 <label className="card" for="item-3" id="song-3">
                   <div className="content-workus">
-                    <div className="content-workus-icon"><img src={Icon} width="60px" alt="" /></div>
+                    <div className="content-workus-icon design"></div>
                     <div className="content-workus-text">
                       <h4>Nos encanta el diseño</h4>
                       <p>

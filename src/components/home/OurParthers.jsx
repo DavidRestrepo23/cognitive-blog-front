@@ -41,9 +41,9 @@ const OurParthers = () => {
               ></button>
             </div>
             <div className="carousel-inner">
-              <div className="carousel-item active" data-bs-interval="500">
+              <div className="carousel-item active">
                 <div className="row items1">
-                  <div className="col-6 col-sm-12 col-md-3 text-center">
+                  <div className="col-6 col-sm-6 col-md-3 text-center">
                     <img
                       src={tenXthinking}
                       width="180"
@@ -52,7 +52,7 @@ const OurParthers = () => {
                     />
 
                   </div>
-                  <div className="col-6 col-sm-12 col-md-3 text-center">
+                  <div className="col-6 col-sm-6 col-md-3 text-center">
                     <img
                       src={atlasSeguridad}
                       width="180"
@@ -61,7 +61,7 @@ const OurParthers = () => {
                     />
 
                   </div>
-                  <div className="col-6 col-sm-12 col-md-3 text-center">
+                  <div className="col-6 col-sm-6 col-md-3 text-center">
                     <img
                       src={gobernacionAntioquia}
                       width="180"
@@ -70,7 +70,7 @@ const OurParthers = () => {
                     />
 
                   </div>
-                  <div className="col-6 col-sm-12 col-md-3 text-center">
+                  <div className="col-6 col-sm-6 col-md-3 text-center">
                     <img
                       src={kendalFloral}
                       width="180"
@@ -81,9 +81,9 @@ const OurParthers = () => {
                   </div>
                 </div>
               </div>
-              <div className="carousel-item" data-bs-interval="500">
+              <div className="carousel-item">
                 <div className="row items1">
-                  <div className="col-6 col-sm-12 col-md-3 text-center">
+                  <div className="col-6 col-sm-6 col-md-3 text-center">
                     <img
                       src={avionicStudio}
                       width="180"
@@ -91,7 +91,7 @@ const OurParthers = () => {
                       alt=""
                     />
                   </div>
-                  <div className="col-6 col-sm-12 col-md-3 text-center">
+                  <div className="col-6 col-sm-6 col-md-3 text-center">
                     <img
                       src={jepmobiliari}
                       width="180"
@@ -99,7 +99,7 @@ const OurParthers = () => {
                       alt=""
                     />
                   </div>
-                  <div className="col-6 col-sm-12 col-md-3 text-center">
+                  <div className="col-6 col-sm-6 col-md-3 text-center">
                     <img
                       src={meego}
                       width="180"

@@ -1,5 +1,11 @@
-import { Link } from "gatsby"
 import React from "react"
+import imgCaso1 from "../../images/Image_01.jpg"
+import imgCaso2 from "../../images/Image_02.jpg"
+import imgCaso3 from "../../images/Image_03.jpg"
+import imgCaso4 from "../../images/Image_04.jpg"
+import imgCaso5 from "../../images/Image_05.jpg"
+
+import casosPdf from "../../images/casos-de-exito.pdf"
 
 const Slider = () => {
   return (
@@ -66,7 +72,7 @@ const Slider = () => {
                   <div className="row">
                     <div className="col-12 col-sm-12 col-md-6 text-center">
                       <img
-                        src="https://via.placeholder.com/500x300"
+                        src={imgCaso1}
 
                         className="carousel-item-img"
                         alt=""
@@ -87,7 +93,7 @@ const Slider = () => {
                         </div>
                       </div>
                       <div className="mt-3">
-                        <Link to="/"> LOREM IPSUM DOLOREM A MET <i className="fas fa-long-arrow-alt-right"></i></Link>
+                        <a href={casosPdf} download > Descarga los casos de éxito <i className="fas fa-long-arrow-alt-right"></i></a>
                       </div>
                     </div>
                   </div>
@@ -96,7 +102,7 @@ const Slider = () => {
                   <div className="row">
                     <div className="col-12 col-sm-12 col-md-6 text-center">
                       <img
-                        src="https://via.placeholder.com/500x300"
+                        src={imgCaso2}
                         className="carousel-item-img"
 
                         alt=""
@@ -117,7 +123,7 @@ const Slider = () => {
                         </div>
                       </div>
                       <div className="mt-3">
-                        <Link to="/"> LOREM IPSUM DOLOREM A MET <i className="fas fa-long-arrow-alt-right"></i></Link>
+                       <a href={casosPdf} download > Descarga los casos de éxito <i className="fas fa-long-arrow-alt-right"></i></a>
                       </div>
                     </div>
                   </div>
@@ -126,7 +132,7 @@ const Slider = () => {
                   <div className="row">
                     <div className="col-12 col-sm-12 col-md-6 text-center">
                       <img
-                        src="https://via.placeholder.com/500x300"
+                         src={imgCaso3}
                         className="carousel-item-img"
 
                         alt=""
@@ -147,7 +153,7 @@ const Slider = () => {
                         </div>
                       </div>
                       <div className="mt-3">
-                        <Link to="/"> LOREM IPSUM DOLOREM A MET <i className="fas fa-long-arrow-alt-right"></i></Link>
+                       <a href={casosPdf} download > Descarga los casos de éxito <i className="fas fa-long-arrow-alt-right"></i></a>
                       </div>
                     </div>
                   </div>
@@ -156,7 +162,7 @@ const Slider = () => {
                   <div className="row">
                     <div className="col-12 col-sm-12 col-md-6 text-center">
                       <img
-                        src="https://via.placeholder.com/500x300"
+                         src={imgCaso4}
                         className="carousel-item-img"
 
                         alt=""
@@ -175,7 +181,7 @@ const Slider = () => {
                         </div>
                       </div>
                       <div className="mt-3">
-                        <Link to="/"> LOREM IPSUM DOLOREM A MET <i className="fas fa-long-arrow-alt-right"></i></Link>
+                       <a href={casosPdf} download > Descarga los casos de éxito <i className="fas fa-long-arrow-alt-right"></i></a>
                       </div>
                     </div>
                   </div>
@@ -184,7 +190,7 @@ const Slider = () => {
                   <div className="row">
                     <div className="col-12 col-sm-12 col-md-6 text-center">
                       <img
-                        src="https://via.placeholder.com/500x300"
+                        src={imgCaso5}
                         className="carousel-item-img"
 
                         alt=""
@@ -205,7 +211,7 @@ const Slider = () => {
                         </div>
                       </div>
                       <div className="mt-3">
-                        <Link to="/"> LOREM IPSUM DOLOREM A MET <i className="fas fa-long-arrow-alt-right"></i></Link>
+                       <a href={casosPdf} download > Descarga los casos de éxito <i className="fas fa-long-arrow-alt-right"></i></a>
                       </div>
                     </div>
                   </div>
