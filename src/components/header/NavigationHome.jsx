@@ -12,7 +12,7 @@ const NavigationHome = () => {
           <img src={logo} alt="Cognitive logo" className="logo-img d-none d-md-block" width="286" />
           <img src={logoWhite} alt="Cognitive logo" className="logo-img d-block d-md-none" width="250" />
           <div
-            className="collapse navbar-collapse justify-content-end mt-5 d-none d-lg-block"
+            className="collapse navbar-collapse justify-content-end mt-lg-5 d-none d-lg-block"
             id="navbarSupportedContent"
           >
             <ul className="navbar-nav">

@@ -78,7 +78,7 @@ const Tabs = () => {
                   </button>
                 </li>
               </ul>
-              <div className="tab-content py-5 py-md-0 px-sm-5" id="myTabContent">
+              <div className="tab-content py-5 px-sm-5" id="myTabContent">
                 <div
                   className="tab-pane px-4 px-md-5 fade show active"
                   id="home"
@@ -86,7 +86,7 @@ const Tabs = () => {
                   aria-labelledby="home-tab"
                 >
                   <div className="row content-tabs align-items-center">
-                    <div className="col-12 col-md-6">
+                    <div className="col-12 col-md-12 col-lg-6">
                       
                       <div className="mb-5">
                         <h2>
@@ -112,7 +112,7 @@ const Tabs = () => {
                         </Link>
                       </div>
                     </div>
-                    <div className="col-12 col-md-6 text-center p-md-5">
+                    <div className="col-12 col-md-12 col-lg-6 text-center p-md-5">
                       <div className="content-image-phone">
                         <div>
                           <img className="px-md-5 pt-5 pt-md-0" src={phoneImage} alt="" />
@@ -130,7 +130,7 @@ const Tabs = () => {
                   aria-labelledby="profile-tab"
                 >
                   <div className="row content-tabs align-items-center">
-                    <div className="col-12 col-md-6">
+                    <div className="col-12 col-md-12 col-lg-6">
                       
                       <div className="mb-5">
                         <h2>
@@ -155,7 +155,7 @@ const Tabs = () => {
                         </Link>
                       </div>
                     </div>
-                    <div className="col-12 col-md-6 text-center p-md-5">
+                    <div className="col-12 col-md-12 col-lg-6 text-center p-md-5">
                       <div className="content-image-phone">
                         <div>
                           <img className="px-md-5 pt-5 pt-md-0" src={phoneImage} alt="" />
@@ -173,7 +173,7 @@ const Tabs = () => {
                   aria-labelledby="contact-tab"
                 >
                   <div className="row content-tabs align-items-center">
-                    <div className="col-12 col-md-6">
+                    <div className="col-12 col-md-12 col-lg-6">
                       
                       <div className="mb-5">
                         <h2>
@@ -197,7 +197,7 @@ const Tabs = () => {
                         </Link>
                       </div>
                     </div>
-                    <div className="col-12 col-md-6 text-center p-md-5">
+                    <div className="col-12 col-md-12 col-lg-6 text-center p-md-5">
                       <div className="content-image-phone">
                         <div>
                           <img className="px-md-5 pt-5 pt-md-0" src={phoneImage} alt="" />
@@ -215,7 +215,7 @@ const Tabs = () => {
                   aria-labelledby="other-tab"
                 >
                   <div className="row content-tabs align-items-center">
-                    <div className="col-12 col-md-6">
+                    <div className="col-12 col-md-12 col-lg-6">
                       <div className="mb-5">
                         <h2>
                           Te acompañamos en la búsqueda de talento para tus equipos in house.
@@ -231,7 +231,7 @@ const Tabs = () => {
                         </Link>
                       </div>
                     </div>
-                    <div className="col-12 col-md-6 text-center p-md-5">
+                    <div className="col-12 col-md-12 col-lg-6 text-center p-md-5">
                       <div className="content-image-phone">
                         <div>
                           <img className="px-md-5 pt-5 pt-md-0" src={phoneImage} alt="" />

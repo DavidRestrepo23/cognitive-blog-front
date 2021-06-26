@@ -7,7 +7,7 @@ import favicon from "../../images/cognityve_favicon.jpg"
 const Head = props => {
   return (
     <Helmet>
-      <title>Cognitive - {props.titlePage}</title>
+      <title>Cognityve - Construyendo futuro a través de la tecnología y los datos</title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <link rel="shortcut icon" href={favicon} type="image/x-icon" />  
 

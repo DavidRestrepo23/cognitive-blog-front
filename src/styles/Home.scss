@@ -3,8 +3,6 @@
 body {
   font-family: "Poppins", sans-serif !important;
   background-color: #f3f6fb !important;
-  
-
 }
 
 header {
@@ -13,7 +11,14 @@ header {
   width: 100%;
   height: 987px;
 
-  @media (min-width: 950px) {
+  @media (max-width: 1550px) {
+    .img-tablet-header {
+      width: 100%;
+    }
+  }
+
+  @media (min-width: 910px) {
+    background-size: cover;
     .navbar {
       position: relative;
       margin-right: 30px;
@@ -25,9 +30,14 @@ header {
     }
   }
 
+  @media (max-width: 1500px) {
+    background-size: contain;
+  }
+ 
   @media (max-width: 767px) {
-    background-image: url("../images/back_mobile.png");
+    background-image: url("../images/back_mobile.png") !important;
     background-position: inherit !important;
+    background-size: auto;
   }
 
   .navbar-toggler {
@@ -78,11 +88,63 @@ header {
     color: #fff;
   }
 
+  @media (max-width:1490px) {
+  
+    .navbar .logo-img {
+      left: 60px;
+    }
+}
+
+  @media (max-width:1350px) {
+      h1 {
+        font-size: 35px;
+      }
+
+      h2 {
+        font-size: 32px;
+      }
+
+      .navbar .logo-img {
+        left: 30px;
+      }
+  }
+
+  @media (max-width:1120px) {
+    h1 {
+      font-size: 30px;
+    }
+
+    h2 {
+      font-size: 28px;
+    }
+
+    .navbar .logo-img {
+      left: 10px;
+    }
+}
+
+@media (max-width:990px) {
+  h1 {
+    font-size: 30px;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+
+  .navbar .logo-img {
+    left: 0;
+    top:30px;
+    width: 240px;
+  }
+}
+
   @media (max-width: 850px) {
     background-position: top;
     padding: 20px;
+
     h1 {
-      line-height: 30px;
+      line-height: 45px;
       font-size: 24px;
 
       strong {
@@ -301,12 +363,21 @@ section {
 
 }
   
-@media (max-width:750px) {
+@media (min-width:758px) {
   .carousel-item-img {
     width: 100%;
   }
   .carousel-indicators {
-    bottom: -78px !important;
+    bottom: -87px !important;
+  }
+}
+
+@media (min-width:1200px) {
+  .carousel-item-img {
+    width: 180px;
+  }
+  .carousel-indicators {
+    bottom: 0px !important;
   }
 }
 
@@ -325,6 +396,7 @@ section {
     img {
       z-index: 1;
       position: relative;
+      width: 100%;
     }
 
     .circle {
@@ -432,6 +504,13 @@ section {
     small {
       font-size: 16px;
     }
+
+    @media (max-width:767px) {
+      .carousel-indicators {
+        bottom: -87px;
+      }
+    }
+     
   }
 }
 
@@ -748,6 +827,12 @@ section {
         width: 77px;
         height: 74px;
         background-size: contain;
+
+        @media (max-width:767px) {
+          width: 40px;
+        }
+
+
       }
 
       .service {
@@ -756,6 +841,10 @@ section {
         width: 77px;
         height: 74px;
         background-size: contain;
+
+        @media (max-width:767px) {
+          width: 40px;
+        }
       }
 
       .design {
@@ -764,6 +853,10 @@ section {
         width: 77px;
         height: 74px;
         background-size: contain;
+
+        @media (max-width:767px) {
+          width: 40px;
+        }
       }
 
       &:hover {
@@ -808,6 +901,9 @@ section {
           width: 77px;
           height: 74px;
           background-size: contain;
+          @media (max-width:767px) {
+            width: 40px;
+          }
         }
   
         .service {
@@ -816,6 +912,9 @@ section {
           width: 77px;
           height: 74px;
           background-size: contain;
+          @media (max-width:767px) {
+            width: 40px;
+          }
         }
   
         .design {
@@ -824,6 +923,9 @@ section {
           width: 77px;
           height: 74px;
           background-size: contain;
+          @media (max-width:767px) {
+            width: 40px;
+          }
         }
 
         .content-workus-text {
